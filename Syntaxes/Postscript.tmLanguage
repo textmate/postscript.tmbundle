@@ -101,16 +101,24 @@
 		<dict>
 			<key>begin</key>
 			<string>\&lt;\&lt;</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.dictionary.postscript</string>
+					<string>punctuation.definition.dictionary.begin.postscript</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>\&gt;\&gt;</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.dictionary.end.postscript</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.dictionary.postscript</string>
 			<key>patterns</key>
@@ -124,16 +132,24 @@
 		<dict>
 			<key>begin</key>
 			<string>\[</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.array.postscript</string>
+					<string>punctuation.definition.array.begin.postscript</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>\]</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.array.end.postscript</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.array.postscript</string>
 			<key>patterns</key>
@@ -147,16 +163,24 @@
 		<dict>
 			<key>begin</key>
 			<string>{</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.procedure.postscript</string>
+					<string>punctuation.definition.procedure.begin.postscript</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>}</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.procedure.end.postscript</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.procedure.postscript</string>
 			<key>patterns</key>
